@@ -6,5 +6,21 @@
 </head>
 <body>
 <h1>My Recipes!</h1>
+
+<table clas>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Description</th>
+        <th>url</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="recipe : ${recipies}">
+        <td th:text="${recipe.id}">1</td>
+        <td th:text="${recipe.description}">Joe</td>
+        <td th:text="${recipe.url}">Buck</td>
+    </tr>
+
 </body>
 </html>
