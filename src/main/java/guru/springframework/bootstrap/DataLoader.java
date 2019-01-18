@@ -33,7 +33,7 @@ public class DataLoader implements CommandLineRunner{
         log.info("CommandLineRunner - run");
 
         Recipe guacamoleRecipe = new Recipe();
-        guacamoleRecipe.setDescription("The BEST guacamole! So easy to make with ripe avocados, salt, serrano chiles, cilantro and lime. Garnish with red radishes or jicama. Serve with tortilla chips. Watch how to make guacamole - it's easy!");
+        guacamoleRecipe.setDescription("The BEST guacamole!");
         guacamoleRecipe.setPrepTime(10);
         guacamoleRecipe.setCookTime(20);
         guacamoleRecipe.setServings(4);
