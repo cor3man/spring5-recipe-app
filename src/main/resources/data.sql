@@ -11,3 +11,5 @@ INSERT INTO unit_of_measure (description) VALUES ('Ripe');
 INSERT INTO unit_of_measure (description) VALUES ('One');
 INSERT INTO unit_of_measure (description) VALUES ('Dash');
 INSERT INTO unit_of_measure (description) VALUES ('Tbsp');
+INSERT INTO unit_of_measure (description) VALUES ('Each');
+INSERT INTO unit_of_measure (description) VALUES ('Pint');
